@@ -1,0 +1,123 @@
+body {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kaushan Script", cursive;
+    background-image: url(../images/background.jpg);
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(149, 238, 189);
+    height: 50px;
+    box-shadow: 2px 2px 12px rgba(233, 226, 226, 0.952);
+    padding: 10px 5%;
+}
+
+
+
+
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 15px;
+    margin: 2%;
+    font-family: "Kaushan Script", cursive;
+    color: #505050;
+    font-size: 30px;
+    font-weight: 50;
+    text-decoration: none;
+}
+
+a {
+    padding: 2%;
+    padding-right: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(78, 120, 158);
+}
+
+
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr ;
+    justify-content: space-between;
+    margin: 2%;
+
+}
+
+.col2 {
+
+    text-align: justify;
+    background-color: ghostwhite;
+    border: honeydew;
+    opacity: 0.5;
+    padding: 3% 3% 0 4%;
+    border-radius: 20%;
+    line-height: 1.25em;
+}
+
+.col3 {
+    padding: 2%;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.image {
+    width: 128px;
+    height: 128px;
+    grid-gap: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.image1,.image2{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image3{
+    grid-row: 2;
+    grid-column: 1 /span 2 ;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ .button1 {
+    grid-row:3;
+    grid-column: 1 /span 2 ;
+    background-color: ghostwhite; 
+    border: none;
+    color: rgb(95, 121, 194);
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em 1em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
